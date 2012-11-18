@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/black"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <TextView
+        android:text="@string/lista_de_compras_cadastradas" 
+	  	android:layout_height="wrap_content" 
+	 	android:layout_width="fill_parent" 
+	  	android:textSize="27sp" 
+	  	android:gravity="center"
+	 	android:textColor="@android:color/white"/>
+    
+    <TextView android:id ="@+lista_compras/nome_obra"
+	  	android:layout_height="wrap_content" 
+	 	android:layout_width="fill_parent"
+	  	android:textSize="15sp" 
+	  	android:gravity="center"/>
+    
+    <ListView android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#FFFFFF"
+        android:dividerHeight="4dip"/>
+
+</LinearLayout>

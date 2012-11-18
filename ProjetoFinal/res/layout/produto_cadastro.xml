@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/black"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"> 
+
+	<TextView android:id ="@+produto_cadastro/titulo"
+		android:layout_height="wrap_content" 
+  		android:layout_width="fill_parent"  
+  		android:textSize="27sp" 
+  		android:gravity="center" 
+		android:textColor="@android:color/white"
+		android:text="@string/cadastro_de_produto"/>
+      
+	    <ScrollView
+		    android:layout_width="fill_parent"
+		    android:layout_height="0dip"
+		    android:layout_weight="1">
+	
+			<LinearLayout
+		    	android:layout_width="fill_parent"
+		      	android:layout_height="wrap_content"
+		      	android:orientation="vertical">
+	  
+		        <TextView
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"
+		        	android:paddingTop="15dip"
+		        	android:textColor="@android:color/white"
+		        	android:text="@string/nome_"/>
+		  
+		        <EditText android:id ="@+produto_cadastro/nome"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:inputType="text"
+			        android:text=""/>
+		  
+		        <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" 
+			        android:textColor="@android:color/white"
+			        android:text="@string/descricao_"/>
+		  
+		        <EditText android:id="@+produto_cadastro/descricao"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:inputType="text"
+			        android:text=""/>
+		        
+		        <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" 
+			        android:textColor="@android:color/white"
+			        android:text="@string/unidade_"/>
+		  
+		        <Spinner android:id="@+produto_cadastro/unidade"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:padding="10sp"
+			        android:prompt="@array/unidades"/>
+		        
+		        <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" 
+			        android:textColor="@android:color/white"
+			        android:text="@string/categoria_"/>
+		  
+		        <Spinner android:id="@+produto_cadastro/categoria"
+		            android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:padding="10sp"/>
+		        
+		      </LinearLayout>
+		      
+	    </ScrollView>
+  
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:baselineAligned="true" 
+		android:gravity="center"
+		android:orientation="horizontal">
+		    
+		<Button android:id="@+produto_cadastro/btnCadastrarProduto"
+		    android:layout_height="wrap_content" 
+		    android:layout_width="wrap_content" 
+		    android:background="@drawable/meu_botao"
+		    android:text="@string/cadastrar"/>
+  
+  </LinearLayout>
+  
+</LinearLayout>

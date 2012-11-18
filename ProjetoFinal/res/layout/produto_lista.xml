@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/black"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView  
+	  	android:layout_height="wrap_content" 
+	  	android:layout_width="fill_parent"
+	  	android:textSize="23sp" 
+	  	android:gravity="center"
+	  	android:textColor="@android:color/white"
+        android:text="@string/categoria"/>
+   	
+    <Spinner android:id="@+id/sp_categorias"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"/>
+    
+    <TextView 
+	  	android:layout_height="wrap_content" 
+	  	android:layout_width="fill_parent"
+	  	android:textSize="23sp" 
+	  	android:gravity="center"
+	  	android:textColor="@android:color/white"
+        android:text="@string/lista_de_produtos"/>
+    
+    <ListView android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#FFFFFF"
+        android:dividerHeight="4dip"/>
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/miEdit" android:title="Visualizar e Editar" />
+  <item android:id="@+id/miDelete" android:title="Deletar" />
+  <item android:id="@+id/miAbrirListas" android:title="Abrir Listas de Compras"></item>
+</menu>

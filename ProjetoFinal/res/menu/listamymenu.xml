@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/miAdd" android:title="Salvar Lista" />
+  <item android:id="@+id/miHome" android:title="Página Inicial" />
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:background="@android:color/black"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"> 
+
+	<TextView android:id ="@+categoria_cadastro/titulo"
+	    android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:textSize="27sp" 
+		android:gravity="center"
+		android:textColor="@android:color/white"
+		android:text="@string/cadastro_de_categoria"/>
+      
+    <ScrollView
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="1">
+
+		<LinearLayout
+	    	android:layout_width="fill_parent"
+	      	android:layout_height="wrap_content"
+	      	android:orientation="vertical">
+	  
+	    	<TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:paddingTop="10dip"
+		        android:textColor="@android:color/white"
+		        android:text="@string/nome_"/>
+	  
+	        <EditText android:id ="@+categoria_cadastro/nome"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="text"
+		        android:text=""/>
+	        
+	      </LinearLayout>
+	      
+	</ScrollView>
+  
+	<LinearLayout
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content" 
+	  	android:baselineAligned="true" 
+	  	android:gravity="center"
+	  	android:orientation="horizontal">
+    
+    <Button android:id="@+categoria_cadastro/btnCadastrarCategoria"
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content"
+	    android:background="@drawable/meu_botao"
+	    android:text="@string/cadastrar"/>
+  
+  </LinearLayout>
+  
+</LinearLayout>

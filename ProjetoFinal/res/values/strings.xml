@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Obra Fácil</string><string name="titulo_categoria">Obra Fácil - Gerência de Categorias</string><string name="titulo_lista">Obra Fácil - Gerência de Compras</string><string name="titulo_obra">Obra Fácil - Gerência de Obras</string><string name="titulo_produto">Obra Fácil - Gerência de Produtos</string>
+    <string name="Titulo">Cadastro de Obra</string><string-array name="unidades">
+        <item>Cx</item>
+        <item>Lt</item>
+	    <item>M</item>
+	    <item>M²</item>
+	    <item>M³</item>
+	    <item>Ml</item>
+		<item>Sc</item>
+        <item>Und</item>
+   	</string-array>
+    <string name="descricao_imagem">Logo do aplicativo Obra Fácil</string>
+    <string name="categoria">Categoria</string>
+    <string name="categorias">Categorias</string>
+    <string name="categoria_">Categoria: </string>
+    <string name="cadastro_de_categoria">Cadastro de Categoria</string>
+    <string name="lista_de_categorias">Lista de Categorias</string>   
+    <string name="produto">Produto</string>
+    <string name="produtos">Produtos</string>
+    <string name="produto_">Produto:</string>
+    <string name="adicionar_produto">Adicionar Produto</string>
+    <string name="cadastro_de_produto">Cadastro de Produto</string>
+    <string name="obra">Obra</string>
+    <string name="obras">Obras</string>
+    <string name="cadastro_de_obra">Cadastro de Obra</string>
+    <string name="lista_de_obras">Lista de Obras</string>
+    <string name="lista">Lista</string>
+    <string name="listas">Listas</string>
+    <string name="sair">Sair</string>
+    <string name="lista_de_produtos">Lista de Produtos</string>
+    <string name="lista_de_compras_cadastradas">Listas de Compras Cadastradas</string>
+    <string name="data_">Data: </string>
+    <string name="valor_">Valor: R$</string>
+    <string name="digite_o_nome_do_produto">Digite o nome do produto</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="total_zerado">Total: R$0.00</string>
+    <string name="nome_">Nome:</string>
+    <string name="quantidade_">Quantidade:</string>
+    <string name="preco_">Preço:</string>
+    <string name="endereco_">Endereço:</string>
+    <string name="descricao_">Descrição:</string>
+    <string name="unidade_">Unidade:</string>
+
+</resources>
